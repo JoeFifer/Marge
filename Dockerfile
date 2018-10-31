@@ -5,6 +5,7 @@ FROM node:9.6.1
 RUN mkdir /var/www/html/marge
 WORKDIR /var/www/html/marge
 
+#blah
 # add `/usr/src/app/node_modules/.bin` to $PATH
 ENV PATH /var/www/html/marge/node_modules/.bin:$PATH
 
